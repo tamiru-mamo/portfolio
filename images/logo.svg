@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="M" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 612 792">
+  <defs>
+    <filter id="drop-shadow-1" x="398.92" y="-955.12" width="1078.08" height="1078.08" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="144"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect x="824.16" y="-529.92" width="213.75" height="213.75" fill="#231f20" filter="url(#drop-shadow-1)" opacity=".37"/>
+  <ellipse cx="304" cy="396" rx="170.18" ry="166.67" fill="#e1e8f0" stroke="#231f20" stroke-miterlimit="10" stroke-width="4"/>
+  <path d="M212.13,462.16v-116.5h-39.94v-23.72h106.96v23.72h-39.84v116.5h-27.18Z" fill="#e07a35"/>
+  <path d="M288.53,462.16v-140.22h40.67l24.42,95.65,24.15-95.65h40.76v140.22h-25.25v-110.38l-26.72,110.38h-26.17l-26.62-110.38v110.38h-25.25Z" fill="#e07a35"/>
+</svg>

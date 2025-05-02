@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>My Portfolio - Home</title>
+    <link rel="stylesheet" href="styles.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.svg" alt="My Logo">
+        </div>
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>      
+    </header>
+    <!-- Contact Section -->
+    <main class="contact-section">
+        <h2>Let's Connect</h2>
+        <form class="contact-form" action="mailto:yourname@email.com" method="POST" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="socials">
+             <!-- social links-->    
+            <a href="https://www.linkedin.com/in/tamiru-mamo" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/tamiru-mamo" target="_blank"  aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.behance.net/tamirumamo" target="_blank" aria-label="Behance"> <i class="fab fa-behance"></i></a>
+            <a href="mailto:tmamo99@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>      
+        </div>
+        <p>&copy; 2025 Tamiru Mamo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
